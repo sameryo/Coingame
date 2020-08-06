@@ -4,11 +4,15 @@
 #include<unistd.h>
 
 int main() {
+    Char name[20]
     int i;
     int heads=0,tails=0;
     
     srand((unsigned int)time(NULL));
 
+    printf("Who are you?\n> ");
+    scanf("%s",name);
+    printf("Hello, %s\n",name);
 
     printf("Tossing a coin...\n");
     
